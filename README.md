@@ -13,15 +13,25 @@ Experience includes:
 
 - VoIP platforms serving tens of millions of users
 - European router test infrastructure (16 lab sites)
-- Linux based infrastructure and network engineering
+- Linux-based infrastructure and network engineering
 - AI-assisted analysis of test data
+
+---
+
+## Focus Areas
+
+- Telco Infrastructure
+- Router & CPE Test Labs
+- Linux Platforms
+- Network Engineering
+- AI-assisted Operations
 
 ---
 
 ## CV
 
-- Markdown: [cv.md](cv.md)
-- PDF: [cv.pdf](cv.pdf)
+- Markdown version: [cv.md](cv.md)
+- PDF version: [cv.pdf](cv.pdf)
 
 ---
 
@@ -31,3 +41,4 @@ Experience includes:
 - Network engineering
 - hardware test labs
 - homelab environments
+- AI-assisted system analysis
