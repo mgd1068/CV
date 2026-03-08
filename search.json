@@ -1,0 +1,121 @@
+{
+"title": "Fortsetzungsauftrag: Job\u2011Suche & Alerts",
+"workspace": "/home/mgruen-drebes/.openclaw/workspace",
+"profile": {
+"name": "Mathias [Nachname]",
+"role": "Senior Infrastructure / Systems Engineer",
+"skills": [
+"Telco Platforms",
+"Network Infrastructure",
+"Hardware Test Labs",
+"Linux",
+"VoIP",
+"AI log analysis"
+],
+"location_center": "64689 Grasellenbach",
+"radius_km": 50,
+"exclusions": [
+"Deutsche Telekom",
+"Vodafone"
+],
+"include_public_sector": true,
+"include_headhunters": true
+},
+"files": {
+"jobs_db": "workspace/stage/jobs_db.json",
+"daily_job": "workspace/stage/daily_job.py",
+"send_report": "workspace/stage/send_daily_report.py",
+"cron_config": "~/.openclaw/cron/jobs.json",
+"memory_note": "workspace/memory/2026-03-08.md"
+},
+"daily_workflow": {
+"08:00": "run daily_job.py (fetch_mail -> parse -> update jobs_db.json)",
+"10:00": "run send_daily_report.py (generate HTML report and send or save EML)"
+},
+"search_sources": [
+"arbeitsagentur.de",
+"indeed",
+"stepstone",
+"monster",
+"jobware",
+"ebay_kleinanzeigen",
+"heise_jobs",
+"linkedin_public",
+"xing_public",
+"university_jobpages",
+"fraunhofer",
+"regional_public_auctions"
+],
+"db_schema": {
+"employer": [
+"name",
+"location",
+"distance_km",
+"sector",
+"reason",
+"excluded",
+"exclude_reason"
+],
+"job_listing": [
+"title",
+"company",
+"location",
+"url",
+"source",
+"date_found",
+"short_description",
+"match_score",
+"salary",
+"salary_range",
+"public_salary_info",
+"warning_telekom"
+],
+"job_candidate": [
+"file",
+"from",
+"date",
+"subject",
+"score",
+"type"
+]
+},
+"salary_research": {
+"sources": [
+"heise.de",
+"TVoD",
+"Metalltarif",
+"chemische Industrie",
+"öffentliche Besoldungstabellen"
+],
+"store_field": "public_salary_info"
+},
+"report": {
+"format": "HTML with plain fallback",
+"include": [
+"top job listings (table)",
+"salary columns",
+"telekom warnings",
+"candidate mails summary"
+],
+"smtp_env": [
+"JOB_SMTP_USER",
+"JOB_SMTP_PASS",
+"JOB_ALERT_FROM",
+"JOB_ALERT_TO"
+],
+"eml_fallback": "/tmp/daily_report.eml"
+},
+"ops": {
+"no_credential_in_repo": true,
+"save_backups": true,
+"log_location": "workspace/logs || /var/log/openclaw"
+},
+"next_actions": [
+"continue portal crawl and extract job listings into jobs_db.json",
+"extract salary info from listings and add salary/salary_range",
+"run parallel public salary research and populate public_salary_info",
+"ensure daily cron entries exist and read SMTP creds from env",
+"produce first HTML report and save/send per env settings"
+],
+"notes": "If login is required for LinkedIn/XING ask user for credentials before using them. Mark any Telekom-related hits with warning_telekom: true."
+}
