@@ -2,11 +2,10 @@
 
 Senior Infrastructure Engineer  
 Telco Platforms • Network Infrastructure • Hardware Test Labs
-📄 **PDF CV:** [Download](cv.pdf)
 ---
 
 ## About
-
+📄 **PDF CV:** [Download](cv.pdf)
 Over 25 years of experience in large-scale infrastructure and telecom platforms.
 
 Experience includes:
