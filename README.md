@@ -2,7 +2,7 @@
 
 Senior Infrastructure Engineer  
 Telco Platforms • Network Infrastructure • Hardware Test Labs
-
+📄 **PDF CV:** [Download](cv.pdf)
 ---
 
 ## About
