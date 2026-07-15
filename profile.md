@@ -1,5 +1,7 @@
 Name: Mathias Grün-Drebes
-Profession: Senior Infrastructure / Systems Engineer
+Profession: Senior Systems & Network Engineer
 Employer: Deutsche Telekom
-Focus: Telco platforms, network infrastructure, router test labs, Linux
+Location: 64689 Grasellenbach, Germany
+Focus: DevOps, telco infrastructure, CPE test labs, Linux, Proxmox, local AI
 GitHub: https://github.com/mgd1068
+LinkedIn: https://www.linkedin.com/in/mathias-gruen-drebes/
