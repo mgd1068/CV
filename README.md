@@ -1,7 +1,7 @@
 # Mathias Grün-Drebes
 
-Senior Systems & Network Engineer  
-DevOps • Telco Infrastructure • CPE Test Labs • Linux & Proxmox
+Senior Infrastructure & DevOps Engineer  
+Linux • Proxmox • Networks • Lab Automation • Local AI
 
 ---
 
@@ -9,25 +9,27 @@ DevOps • Telco Infrastructure • CPE Test Labs • Linux & Proxmox
 
 📄 **PDF CV:** [Download](cv.pdf)
 
-Over 25 years of experience building and operating business-critical IT and telecommunications platforms.
+Over 25 years of experience building and operating business-critical IT platforms and technical infrastructures.
 
 Experience includes:
 
 - VoIP platforms serving tens of millions of customers
-- European router test infrastructure spanning 16 lab sites
+- European router test infrastructure spanning 16 lab sites with international WAN links
 - Mass-test environments for up to 400 CPE routers
 - Linux, Proxmox, network engineering, DevOps, and automation
+- Security, data protection, and compliance for business-critical systems
 - Locally operated AI systems for log analysis and engineering workflows
 
 ---
 
 ## Focus Areas
 
-- Systems & Network Engineering
-- DevOps & Automation
-- Telco Infrastructure
-- Router & CPE Test Labs
+- Infrastructure & DevOps Engineering
+- Network Design, Routing & Switching
+- Development, Integration & Mass-Test Labs
 - Linux, Proxmox & Virtualization
+- End-to-End System Ownership
+- Security, Compliance & Anti-Abuse
 - Local AI & Agentic Workflows
 
 ---
