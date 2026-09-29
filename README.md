@@ -50,4 +50,4 @@ My background combines more than 25 years of enterprise IT experience with hands
 
 ---
 
-*Last updated: July 2026*
+*Last updated: September 2026*

@@ -43,6 +43,8 @@ Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fach
 **Funktion: Senior DevOps & Infrastructure Engineer**  
 **Deutsche Telekom AG | seit 03/2025**
 
+Bereits seit 03/2024 parallele Übernahme der RDK-Laborinfrastruktur im Rahmen einer einjährigen Übergabephase.
+
 - Konzeption, Aufbau und Betrieb von Hardware-, Netzwerk-, Server- und Supportinfrastrukturen für Router- und CPE-Entwicklung.
 - Gemeinsamer Betrieb und Weiterentwicklung zentraler Entwicklungs- und Massentestlabore innerhalb eines DevOps-Teams.
 - Eigenständige Konzeption und Aufbau zusätzlicher Laborumgebungen zur Nachbildung internationaler Netzbetreiber-, Zugangsnetz- und WAN-Szenarien.
