@@ -3,8 +3,8 @@
 **Senior Infrastructure / Systems Engineer**  
 Linux · Proxmox · Netzwerke · Laborautomatisierung · Telekommunikation
 
-Südhessen, Deutschland  
-[GitHub](https://github.com/mgd1068) · [LinkedIn](https://www.linkedin.com/in/mathias-gruen-drebes/)
+64689 Grasellenbach, Deutschland  
+[moreit@gdinfo.de](mailto:moreit@gdinfo.de) · [GitHub](https://github.com/mgd1068) · [LinkedIn](https://www.linkedin.com/in/mathias-gruen-drebes/)
 
 ## Profil
 

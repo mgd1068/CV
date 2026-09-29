@@ -47,6 +47,8 @@ To build the PDF locally with the same settings: `pandoc cv.md -o cv.pdf -V geom
 
 ## Contact
 
+- 64689 Grasellenbach, Germany
+- Email: [moreit@gdinfo.de](mailto:moreit@gdinfo.de)
 - [LinkedIn](https://www.linkedin.com/in/mathias-gruen-drebes/)
 - [GitHub profile](https://github.com/mgd1068)
 
