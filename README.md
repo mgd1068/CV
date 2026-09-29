@@ -43,7 +43,7 @@ My background combines more than 25 years of enterprise IT experience with hands
 - [Compact English profile](profile.md)
 - [CV as PDF](cv.pdf) – generated automatically from `cv.md` by the [Build CV PDF](.github/workflows/build-cv.yml) GitHub Actions workflow
 
-To build the PDF locally with the same settings: `pandoc cv.md -o cv.pdf -V geometry:margin=2.1cm` (pandoc 3.7 with a LaTeX engine).
+To build the PDF locally with the same settings: `pandoc cv.md -o cv.pdf -V geometry:margin=2.1cm -V 'header-includes=\pdftrailerid{}'` (pandoc 3.7 with a LaTeX engine).
 
 ## Contact
 

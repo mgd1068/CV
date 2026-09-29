@@ -33,7 +33,7 @@ jobs:
         env:
           SOURCE_DATE_EPOCH: ${{ env.SOURCE_DATE_EPOCH }}
         with:
-          args: cv.md -o cv.pdf -V geometry:margin=2.1cm
+          args: cv.md -o cv.pdf -V geometry:margin=2.1cm -V header-includes=\pdftrailerid{}
 
       - name: Commit updated PDF
         run: |
