@@ -9,8 +9,8 @@ My background combines more than 25 years of enterprise IT experience with hands
 
 ## Professional Focus
 
-- Linux, Windows Server and on-premises infrastructure
-- Proxmox VE, KVM, Ceph, Proxmox Backup Server and Docker
+- Linux and on-premises infrastructure
+- Proxmox VE (HA clusters), KVM, Ceph, Proxmox Backup Server and Docker
 - Network architecture, routing, switching, VLAN, VPN and firewalls
 - GPON, FTTH, xDSL, OLT, MSAN, PPPoE, VoIP and CPE environments
 - Development, integration and mass-test laboratories
@@ -23,9 +23,19 @@ My background combines more than 25 years of enterprise IT experience with hands
 - End-to-end responsibility for business-critical platforms serving millions of users
 - Design and operation of internationally connected router development and test infrastructures
 - Mass-test environments for several hundred simultaneously connected CPE devices
-- Proxmox-based virtualization, high-availability, storage and backup infrastructures
+- Operation of two Proxmox HA clusters with three PVE nodes each, each complemented by a Proxmox Backup Server, plus a separate standalone Proxmox environment for another lab
+- Magenta Speaker project: responsible for Privacy and Security Audit (PSA) topics and interface to operations; operated a directory service and several Linux systems in Azure. In addition, cross-departmental responsibility for PSA topics
 - Technical leadership and coordination in matrix organizations
 - Budget planning and management of internal and external technology partners
+- Economical use of hardware: assessing, repairing and upgrading existing systems; prioritising investments by urgency, failure risk and benefit
+
+## Complementary Skills and Current Learning
+
+- **Azure:** professional project experience from the Magenta Speaker project (directory service in Azure, several Linux systems)
+- **AWS:** complementary private practice with a small cloud service of my own
+- **Windows Server:** earlier professional experience; currently refreshing it by building a virtual test environment with two domain controllers, a member server and a Windows client (in progress)
+- **Private lab:** small Proxmox HA setup on NUC / mini-PC hardware with Intel N100
+- I am ready to extend my Windows and cloud skills specifically to match the tasks of a role
 
 ## Documents
 

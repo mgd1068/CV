@@ -11,7 +11,7 @@ My background combines hands-on Linux and network engineering with virtualizatio
 ### Focus Areas
 
 - Linux and on-premises infrastructure
-- Proxmox VE, KVM, Ceph and Docker
+- Proxmox VE (HA clusters), Proxmox Backup Server, KVM, Ceph and Docker
 - Network architecture, routing, switching, VLAN and VPN
 - Development, integration and mass-test laboratories
 - GPON, FTTH, xDSL, OLT, MSAN, PPPoE, VoIP and CPE environments
@@ -20,6 +20,7 @@ My background combines hands-on Linux and network engineering with virtualizatio
 - End-to-end system ownership
 - Technical leadership in matrix organizations
 - Budget and supplier management
+- Economical use of hardware: assessing, repairing and upgrading new and older systems; prioritising investments by urgency, failure risk and benefit
 - Local AI-assisted engineering workflows
 
 ### Selected Experience
@@ -27,9 +28,19 @@ My background combines hands-on Linux and network engineering with virtualizatio
 - Design and operation of internationally connected router development and test environments
 - Mass-test infrastructure for several hundred simultaneously connected CPE devices
 - Large-scale VoIP platforms serving millions of customers
-- Proxmox-based virtualization, high-availability, storage and backup systems
+- Operation of two Proxmox HA clusters with three PVE nodes each, each complemented by a Proxmox Backup Server, plus a separate standalone Proxmox environment for another lab
 - Support, security and anti-abuse systems for business-critical platforms
+- Application ownership for two VoIP back-end systems (abuse management, SIP trunk business customers)
+- Magenta Speaker project: responsible for Privacy and Security Audit (PSA) topics and interface to operations; operated a directory service and several Linux systems in Azure. In addition, cross-departmental responsibility for PSA topics
 - Local GPU-based AI environment for technical log and test-data analysis
+
+### Complementary Skills and Current Learning
+
+- **Azure:** professional project experience from the Magenta Speaker project (directory service in Azure, several Linux systems)
+- **AWS:** complementary private practice with a small cloud service of my own
+- **Windows Server:** earlier professional experience; currently refreshing it by building a virtual test environment with two domain controllers, a member server and a Windows client (in progress)
+- **Private lab:** small Proxmox HA setup on NUC / mini-PC hardware with Intel N100
+- I am ready to extend my Windows and cloud skills specifically to match the tasks of a role
 
 ### Contact
 

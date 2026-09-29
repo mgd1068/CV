@@ -10,7 +10,7 @@ Südhessen, Deutschland
 
 Senior Infrastructure & DevOps Engineer mit mehr als 25 Jahren Erfahrung im Aufbau, Betrieb und in der Weiterentwicklung geschäftskritischer IT-Plattformen und technischer Infrastrukturen.
 
-Breite Praxis in Linux- und Windows-Serverumgebungen, Netzwerkarchitekturen, Virtualisierung, Automatisierung, Monitoring, Security sowie Entwicklungs- und Massentestumgebungen für vernetzte Geräte. Langjährige End-to-End-Verantwortung für Systeme mit mehreren Millionen Nutzern und für international angebundene Laborinfrastrukturen.
+Breite Praxis in Linux-Serverumgebungen, Netzwerkarchitekturen, Virtualisierung mit Proxmox, Automatisierung, Monitoring, Security sowie Entwicklungs- und Massentestumgebungen für vernetzte Geräte. Langjährige End-to-End-Verantwortung für Systeme mit mehreren Millionen Nutzern und für international angebundene Laborinfrastrukturen.
 
 Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fachlicher Führung in Matrixorganisationen, internationaler Zusammenarbeit sowie Budget- und Lieferantensteuerung.
 
@@ -33,7 +33,7 @@ Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fach
 - Aufbau und Betrieb von Massentestumgebungen für mehrere hundert gleichzeitig angeschlossene CPE-Router.
 - Aufbau und Weiterentwicklung großskaliger VoIP-Plattformen für mehrere Millionen Endkunden.
 - Entwicklung und Betrieb von Support-, Security- und Anti-Abuse-Systemen für geschäftskritische Kommunikationsplattformen.
-- Aufbau Proxmox-basierter Virtualisierungs-, Hochverfügbarkeits-, Storage- und Backup-Infrastrukturen.
+- Betrieb von zwei Proxmox-HA-Clustern mit jeweils drei PVE-Knoten und einem ergänzenden Proxmox Backup Server sowie einer separaten Proxmox-Einzelumgebung für ein weiteres Labor.
 - Aufbau einer lokal betriebenen, GPU-basierten KI-Umgebung zur Analyse von Test- und Logdaten sowie zur Unterstützung technischer Arbeitsabläufe.
 - Mehrjährige fachliche Führung technischer Teams und Koordination zwischen Entwicklung, Test, Betrieb und externen Partnern.
 
@@ -49,7 +49,7 @@ Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fach
 - Betrieb von Testumgebungen für mehrere hundert CPE-Router mit GPON-, DSL-, Ethernet-, LAN-, WAN- und seriellen Zugängen.
 - Betrieb von OLT- und MSAN-Systemen für reproduzierbare FTTH-, GPON- und DSL-Tests.
 - Netzwerkdesign, Segmentierung und sichere Anbindung verteilter Laborumgebungen.
-- Betrieb Proxmox-basierter Virtualisierungs-, Hochverfügbarkeits-, Storage- und Backup-Infrastrukturen.
+- Betrieb von zwei Proxmox-HA-Clustern mit jeweils drei PVE-Knoten und einem ergänzenden Proxmox Backup Server sowie einer separaten Proxmox-Einzelumgebung für ein weiteres Labor.
 - Bereitstellung von Netzwerk-, Boot-, Firmware-, Logging-, Monitoring- und Testdiensten sowie Integration in Build- und CI/CD-Prozesse.
 - Entwicklung betriebsnaher Automatisierungs- und Supportwerkzeuge.
 - Konzeption einer skalierbaren Orchestrierungsschicht für Laborressourcen und Testdienste.
@@ -67,6 +67,8 @@ Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fach
 - Budgetplanung und -steuerung sowie Koordination interner und externer IT-Dienstleister.
 - Leitung strategischer Projekte und technische Beratung von Fachbereichen.
 - Betrieb und Weiterentwicklung von Support-, Analyse- und Anti-Abuse-Systemen für großskalige Kommunikationsplattformen.
+- Applikationsverantwortung für zwei VoIP-Backendsysteme: Abuse Management sowie Anlage und Verwaltung von SIP-Trunk-Geschäftskunden.
+- Im Projekt Magenta Speaker verantwortlich für die Themen des Privacy and Security Audit (PSA) und Schnittstelle zu Operations; dort Betrieb eines Verzeichnisdienstes in Azure und mehrerer Linux-Systeme. Darüber hinaus abteilungsübergreifende Zuständigkeit für PSA-Themen.
 
 ### Service Manager DSL-Telefonie / VoIP  
 **Deutsche Telekom AG / T-Online | 07/2004–10/2011**
@@ -97,13 +99,22 @@ Ohne Abschluss aufgrund des Wechsels in eine hauptberufliche IT-Tätigkeit.
 
 ## Technische Kenntnisse
 
-- **Betriebssysteme:** Linux, Debian, Ubuntu, FreeBSD, Windows Server
-- **Virtualisierung und Storage:** Proxmox VE, KVM, Ceph, Proxmox Backup Server, Docker
+- **Betriebssysteme:** Linux, Debian, Ubuntu, FreeBSD
+- **Virtualisierung und Storage:** Proxmox VE (HA-Cluster), KVM, Ceph, Proxmox Backup Server, Docker
 - **Netzwerk und Security:** Routing, Switching, VLAN, WAN, LAN, VPN, WireGuard, EoIP, PPPoE, OPNsense, pfSense
 - **Telekommunikation und CPE:** RDK-B, GPON, FTTH, OLT, xDSL, MSAN, VoIP, SIP
 - **DevOps und Automatisierung:** Git, GitLab, CI/CD, Bash, Python, REST APIs, TFTP
 - **Monitoring und Logging:** Checkmk, Grafana, Wazuh, zentrale Loghost-Infrastrukturen
 - **Lokale KI:** lokale Large Language Models, Inference- und Analyse-Workflows
+- **Cloud:** Azure – berufliche Projekterfahrung aus dem Projekt Magenta Speaker (Verzeichnisdienst in Azure, mehrere Linux-Systeme)
+- **Hardware und Budget:** neue und ältere Hardware bewerten, reparieren und gezielt aufrüsten; Weiterbetrieb nach Zustand, Fehlerhistorie, Ersatzteilversorgung und betrieblichen Anforderungen einschätzen; Investitionen nach Dringlichkeit, Ausfallrisiko und Nutzen priorisieren
+
+## Ergänzende Kenntnisse und Weiterbildung
+
+- **Windows Server:** frühere Berufserfahrung; derzeit aktive Auffrischung durch den Aufbau einer virtuellen Testumgebung mit zwei Domain Controllern, Memberserver und Windows-Client (im Aufbau)
+- **AWS:** ergänzende private Praxis mit einem kleinen eigenen Cloud-Service
+- **Proxmox privat:** kleiner Proxmox-HA-Aufbau auf NUC-/Mini-PC-Hardware mit Intel N100
+- **Weiterentwicklung:** Windows- und Cloud-Kenntnisse baue ich passend zu den Aufgaben einer Stelle gezielt aus
 
 ## Sprachen
 
@@ -112,4 +123,4 @@ Ohne Abschluss aufgrund des Wechsels in eine hauptberufliche IT-Tätigkeit.
 
 ---
 
-Stand: Juli 2026
+Stand: September 2026
