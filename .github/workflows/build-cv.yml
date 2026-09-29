@@ -1,0 +1,48 @@
+name: Build CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - cv.md
+      - .github/workflows/build-cv.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-cv
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Fester Zeitstempel = Commit-Zeit von cv.md, damit die PDF reproduzierbar ist
+      # und nur bei echten Inhaltsänderungen ein neuer Commit entsteht.
+      - name: Set reproducible build date
+        run: echo "SOURCE_DATE_EPOCH=$(git log -1 --format=%ct -- cv.md)" >> "$GITHUB_ENV"
+
+      - name: Render cv.md to cv.pdf
+        uses: docker://pandoc/latex:3.7.0.2
+        env:
+          SOURCE_DATE_EPOCH: ${{ env.SOURCE_DATE_EPOCH }}
+        with:
+          args: cv.md -o cv.pdf -V geometry:margin=2.1cm
+
+      - name: Commit updated PDF
+        run: |
+          if git diff --quiet -- cv.pdf; then
+            echo "cv.pdf ist bereits aktuell."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898273+github-actions[bot]@users.noreply.github.com"
+          git add cv.pdf
+          git commit -m "Regenerate cv.pdf from cv.md"
+          git push
