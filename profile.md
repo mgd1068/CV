@@ -2,7 +2,7 @@
 
 ## Mathias Grün-Drebes
 
-**Senior Infrastructure & DevOps Engineer**
+**Senior Infrastructure / Systems Engineer**
 
 Infrastructure engineer with more than 25 years of experience building, operating and improving business-critical IT platforms and technical environments.
 
@@ -11,7 +11,7 @@ My background combines hands-on Linux and network engineering with virtualizatio
 ### Focus Areas
 
 - Linux and on-premises infrastructure
-- Proxmox VE (HA clusters), Proxmox Backup Server, KVM, Ceph and Docker
+- Proxmox VE (HA clusters, Ceph), Proxmox Backup Server, KVM and Docker
 - Network architecture, routing, switching, VLAN and VPN
 - Development, integration and mass-test laboratories
 - GPON, FTTH, xDSL, OLT, MSAN, PPPoE, VoIP and CPE environments

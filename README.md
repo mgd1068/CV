@@ -1,6 +1,6 @@
 # Mathias Grün-Drebes
 
-**Senior Infrastructure & DevOps Engineer**  
+**Senior Infrastructure / Systems Engineer**  
 Linux · Proxmox · Networks · Lab Automation · Telecommunications
 
 I design, build and operate complex technical infrastructures — from business-critical communication platforms to internationally connected development and mass-test laboratories.
@@ -10,7 +10,7 @@ My background combines more than 25 years of enterprise IT experience with hands
 ## Professional Focus
 
 - Linux and on-premises infrastructure
-- Proxmox VE (HA clusters), KVM, Ceph, Proxmox Backup Server and Docker
+- Proxmox VE (HA clusters, Ceph), KVM, Proxmox Backup Server and Docker
 - Network architecture, routing, switching, VLAN, VPN and firewalls
 - GPON, FTTH, xDSL, OLT, MSAN, PPPoE, VoIP and CPE environments
 - Development, integration and mass-test laboratories

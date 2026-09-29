@@ -1,6 +1,6 @@
 # Mathias Grün-Drebes
 
-**Senior Infrastructure & DevOps Engineer**  
+**Senior Infrastructure / Systems Engineer**  
 Linux · Proxmox · Netzwerke · Laborautomatisierung · Telekommunikation
 
 Südhessen, Deutschland  
@@ -8,7 +8,7 @@ Südhessen, Deutschland
 
 ## Profil
 
-Senior Infrastructure & DevOps Engineer mit mehr als 25 Jahren Erfahrung im Aufbau, Betrieb und in der Weiterentwicklung geschäftskritischer IT-Plattformen und technischer Infrastrukturen.
+Senior Infrastructure / Systems Engineer mit mehr als 25 Jahren Erfahrung im Aufbau, Betrieb und in der Weiterentwicklung geschäftskritischer IT-Plattformen und technischer Infrastrukturen.
 
 Breite Praxis in Linux-Serverumgebungen, Netzwerkarchitekturen, Virtualisierung mit Proxmox, Automatisierung, Monitoring, Security sowie Entwicklungs- und Massentestumgebungen für vernetzte Geräte. Langjährige End-to-End-Verantwortung für Systeme mit mehreren Millionen Nutzern und für international angebundene Laborinfrastrukturen.
 
@@ -17,7 +17,7 @@ Verbindet technische Tiefe mit Operations- und Servicemanagement-Erfahrung, fach
 ## Schwerpunkte
 
 - Linux-, Server- und Netzwerkinfrastrukturen
-- Proxmox VE, KVM, Ceph, Proxmox Backup Server und Docker
+- Proxmox VE mit Ceph, KVM, Proxmox Backup Server und Docker
 - Netzwerkdesign, Routing, Switching, VLAN, VPN und Firewalls
 - DevOps, CI/CD, Automatisierung und betriebsnahe Softwareentwicklung
 - Entwicklungs-, Integrations- und Massentestlabore
@@ -102,7 +102,7 @@ Ohne Abschluss aufgrund des Wechsels in eine hauptberufliche IT-Tätigkeit.
 ## Technische Kenntnisse
 
 - **Betriebssysteme:** Linux, Debian, Ubuntu, FreeBSD
-- **Virtualisierung und Storage:** Proxmox VE (HA-Cluster), KVM, Ceph, Proxmox Backup Server, Docker
+- **Virtualisierung und Storage:** Proxmox VE (HA-Cluster, Ceph), KVM, Proxmox Backup Server, Docker
 - **Netzwerk und Security:** Routing, Switching, VLAN, WAN, LAN, VPN, WireGuard, EoIP, PPPoE, OPNsense, pfSense
 - **Telekommunikation und CPE:** RDK-B, GPON, FTTH, OLT, xDSL, MSAN, VoIP, SIP
 - **DevOps und Automatisierung:** Git, GitLab, CI/CD, Bash, Python, REST APIs, TFTP
